@@ -28,7 +28,7 @@ Figma Tokens Studio에 **정확히 이렇게** 입력:
 
 ```
 Personal Access Token: ghp_XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-Repository: hnkimTeamremited/design-tokens
+Repository: dev-teamremited/design-tokens
 Default branch: main
 File Path: tokens
 Base Branch: main
@@ -36,7 +36,7 @@ Base Branch: main
 
 **주의사항:**
 - Repository 앞에 `https://github.com/` 붙이면 안 됨
-- `hnkimTeamremited/design-tokens` 이렇게만 입력
+- `dev-teamremited/design-tokens` 이렇게만 입력
 - 대소문자 정확히 일치해야 함
 
 ### 원인 3: Figma 플러그인 캐시 문제
@@ -93,7 +93,7 @@ git push
 ```bash
 # YOUR_TOKEN을 실제 token으로 교체
 curl -H "Authorization: token YOUR_TOKEN" \
-  https://api.github.com/repos/hnkimTeamremited/design-tokens
+  https://api.github.com/repos/dev-teamremited/design-tokens
 
 # 성공하면 repository 정보가 JSON으로 출력됨
 # 실패하면 "Bad credentials" 또는 "Not Found" 에러
@@ -137,7 +137,7 @@ Figma에서 수동 export → GitHub에서 Actions 실행 → 자동 빌드
 
 1. https://github.com/apps/tokens-studio 접속
 2. **Install** 클릭
-3. `hnkimTeamremited/design-tokens` repository 선택
+3. `dev-teamremited/design-tokens` repository 선택
 4. Figma 플러그인에서 GitHub App 방식으로 연결
 
 ### 플랜 C: VS Code Extension 사용

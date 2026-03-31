@@ -3,7 +3,7 @@
 ## ✅ 완료된 사항
 
 - ✅ design-tokens 프로젝트 설정
-- ✅ GitHub repository 생성: **https://github.com/hnkimTeamremited/design-tokens**
+- ✅ GitHub repository 생성: **https://github.com/dev-teamremited/design-tokens**
 - ✅ 샘플 토큰 파일 생성 및 커밋
 
 ## 🚀 다음 단계: Figma에서 연동하기
@@ -41,7 +41,7 @@
 ```
 Name: Design Tokens (원하는 이름)
 Personal Access Token: [1단계에서 복사한 토큰]
-Repository: hnkimTeamremited/design-tokens
+Repository: dev-teamremited/design-tokens
 Default branch: main
 File Path: tokens
 Base Branch: main
@@ -124,7 +124,7 @@ import { LightColorPrimary, GlobalSpacingMd } from '../../design-tokens/dist/rn/
 
 ## 📚 추가 리소스
 
-- GitHub Repository: https://github.com/hnkimTeamremited/design-tokens
+- GitHub Repository: https://github.com/dev-teamremited/design-tokens
 - 상세 가이드: `README.md`
 - 빠른 시작: `QUICK_START.md`
 - 코드 예시: `examples/` 폴더
